@@ -50,3 +50,5 @@ group :development do
   gem "web-console"
 end
 
+
+gem "lammy", "~> 0.8.1"

@@ -118,8 +118,8 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.7.2)
-    lammy (0.8.1)
+    json (2.7.6)
+    lammy (0.8.2)
       anthropic (~> 0.3)
       hashie (~> 5.0)
       ruby-openai (~> 7.1)
@@ -244,7 +244,7 @@ GEM
       rubocop-minitest
       rubocop-performance
       rubocop-rails
-    ruby-openai (7.2.0)
+    ruby-openai (7.3.1)
       event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
@@ -295,7 +295,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  lammy (~> 0.8.1)
+  lammy (~> 0.8.2)
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.1)

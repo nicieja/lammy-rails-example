@@ -51,4 +51,4 @@ group :development do
 end
 
 
-gem "lammy", "~> 0.8.1"
+gem "lammy", "~> 0.8.3"

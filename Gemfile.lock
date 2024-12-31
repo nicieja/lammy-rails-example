@@ -94,14 +94,14 @@ GEM
     drb (2.2.1)
     erubi (1.13.0)
     event_stream_parser (1.0.0)
-    faraday (2.12.0)
-      faraday-net_http (>= 2.0, < 3.4)
+    faraday (2.12.2)
+      faraday-net_http (>= 2.0, < 3.5)
       json
       logger
-    faraday-multipart (1.0.4)
-      multipart-post (~> 2)
-    faraday-net_http (3.3.0)
-      net-http
+    faraday-multipart (1.1.0)
+      multipart-post (~> 2.0)
+    faraday-net_http (3.4.0)
+      net-http (>= 0.5.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     hashie (5.0.0)
@@ -118,13 +118,13 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.7.2)
-    lammy (0.8.1)
+    json (2.9.1)
+    lammy (0.9.0)
       anthropic (~> 0.3)
       hashie (~> 5.0)
       ruby-openai (~> 7.1)
     language_server-protocol (3.17.0.3)
-    logger (1.6.1)
+    logger (1.6.4)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -138,7 +138,7 @@ GEM
     minitest (5.25.1)
     msgpack (1.7.3)
     multipart-post (2.4.1)
-    net-http (0.4.1)
+    net-http (0.6.0)
       uri
     net-imap (0.4.16)
       date
@@ -244,7 +244,7 @@ GEM
       rubocop-minitest
       rubocop-performance
       rubocop-rails
-    ruby-openai (7.2.0)
+    ruby-openai (7.3.1)
       event_stream_parser (>= 0.3.0, < 2.0.0)
       faraday (>= 1)
       faraday-multipart (>= 1)
@@ -268,7 +268,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    uri (0.13.1)
+    uri (1.0.2)
     useragent (0.16.10)
     web-console (4.2.1)
       actionview (>= 6.0.0)
@@ -295,7 +295,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  lammy (~> 0.8.1)
+  lammy (~> 0.9.0)
   pg (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.2.1)
